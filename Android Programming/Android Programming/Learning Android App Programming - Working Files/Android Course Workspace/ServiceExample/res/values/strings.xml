@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Service Example</string>
+    <string name="startService">Start Service</string>
+    <string name="stopService">Stop Service</string>
+    <string name="appHeader">Service Interface</string>
+    <string name="serviceStarted">Service Started</string>
+    <string name="serviceMessage">Service Message</string>
+    <string name="serviceStopped">Service Stopped</string>
+    <string name="serviceNotRunning">Service Not Running</string>
+    <string name="serviceRunning">....Service Running</string>
+</resources>

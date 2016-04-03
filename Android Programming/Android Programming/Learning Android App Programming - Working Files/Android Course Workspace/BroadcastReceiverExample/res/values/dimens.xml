@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerTextSize">25dip</dimen>
+    <dimen name="headerHeight">60dip</dimen>
+    <dimen name="buttonTextSize">15dip</dimen>
+    <dimen name="mainTextSize">12dip</dimen>
+</resources>

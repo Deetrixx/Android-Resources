@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <View 
+        android:layout_width="wrap_content" 
+        android:layout_height="10dip"  />
+
+    <TextView
+        android:id="@+id/appHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/headerHeight"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/appHeader"
+        android:textSize="@dimen/headerTextSize" />
+  
+	<Button
+		android:id="@+id/startTaskButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="@string/startTask"
+		android:textSize="@dimen/buttonTextSize"
+	></Button>
+</LinearLayout>

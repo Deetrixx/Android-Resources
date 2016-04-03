@@ -1,0 +1,35 @@
+<!DOCTYPE HTML> <html> 
+
+<head> 
+<script> 
+
+// Window load function.                      
+window.onload = function()
+{ 
+   // Canvas definition variables.            
+   canvas  = document.getElementById("canvasArea");
+   context = canvas.getContext("2d");
+
+   // Canvas display functions.
+   var text              = "CanvasDisplay.htm"
+   var xPosition         = canvas.width/2;
+   var yPosition         = canvas.height/2;
+   context.font          = "20pt Arial"; 
+   context.textAlign     = "center"; 
+   context.fillText(text, xPosition, yPosition);        
+}
+</script> 
+</head>
+<body> 
+
+<div    style  = "width:350px;   height:250px; 
+                  margin:0 auto; padding:5px;">
+
+<canvas id     = "canvasArea" 
+        width  = "350"  height = "250" 
+        style  = "border:1px solid black">
+You're browser doesn't currently support HTML5 Canvas.
+</canvas> 
+</div> 
+</body> 
+</html>

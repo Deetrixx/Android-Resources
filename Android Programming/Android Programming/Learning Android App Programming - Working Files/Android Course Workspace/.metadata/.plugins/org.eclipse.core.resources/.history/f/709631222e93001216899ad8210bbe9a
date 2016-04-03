@@ -1,0 +1,39 @@
+package com.donkcowan.firstappproject;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.util.Log;
+import android.view.Menu;
+import android.widget.RatingBar;
+import android.widget.RatingBar.OnRatingBarChangeListener;
+import android.widget.TextView;
+
+public class MainActivity extends Activity implements OnRatingBarChangeListener {
+	
+	int rating;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		((RatingBar)findViewById(R.id.ratingBar1)).setOnRatingBarChangeListener(this);
+		
+
+	}
+
+    public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromTouch) {
+        final float numStars = ratingBar.getRating();
+        rating = numStars;
+
+		Log.i("AppTest","My message");
+		Log.i("AppTest",Float.toString(numStars));
+    }
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_main, menu);
+		return true;
+	}
+
+}

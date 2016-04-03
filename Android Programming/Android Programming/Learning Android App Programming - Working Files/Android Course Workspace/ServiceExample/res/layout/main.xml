@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    >
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="30dip"  />
+
+    <TextView
+        android:id="@+id/appHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/headerHeight"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/appHeader"
+        android:textSize="@dimen/headerTextSize" />
+    
+	<Button
+		android:id="@+id/startServiceButton"
+		android:text="@string/startService"
+		android:textSize="@dimen/startStopButtonTextSize"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+	></Button>
+	
+	<Button
+		android:id="@+id/stopServiceButton"
+		android:text="@string/stopService"
+		android:textSize="@dimen/startStopButtonTextSize"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"		
+	></Button>
+	
+	<TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="30dip"  />
+
+	<TextView
+	    android:id="@+id/serviceStatus"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:textSize="@dimen/messageSize" />
+
+</LinearLayout>

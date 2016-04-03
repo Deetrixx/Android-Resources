@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Async Task Example</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="startTask">Start Task</string>
+    <string name="appHeader">Background Task</string>
+    <string name="backgroundTaskCompleted">Background Task Completed</string>
+    <string name="progressMessage">Background Task Operating</string>
+    <string name="mainThreadRunning">Main Thread Running</string> 
+
+</resources>

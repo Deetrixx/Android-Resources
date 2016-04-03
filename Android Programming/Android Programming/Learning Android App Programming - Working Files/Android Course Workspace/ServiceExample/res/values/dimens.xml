@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="messageSize">15dip</dimen>
+    <dimen name="headerTextSize">25dip</dimen>
+    <dimen name="headerHeight">60dip</dimen>
+    <dimen name="startStopButtonTextSize">15dip</dimen>
+</resources>
